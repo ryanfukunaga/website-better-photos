@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermodynamics</title>
+    <link rel="stylesheet" href="dispenser.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">Ryan Fukunaga</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <h2>Thermodynamics (Heat Insulating Box) </h2>
+        <ul>
+            <li> <strong>Objective:</strong>: create an insulating box that can maintain the temperature and retain the heat of a heated beaker of water over a specified duration. The goal is to minimize heat loss of the warmed water and be able to accurately predict the final water temperature after a specified time period. </li>
+            <li> <strong>Design Requirements </strong>:
+                <ul>
+                <li> Box must fit inside a 20 cm x 20 cm x 20 cm cube</li>
+                <li> Must be able to insert and remove a beaker</li>
+                <li> Must be able to insert and remove a thermometer via a hole at least 1.5 cm in diameter </li>
+                <li> No energy sources within the box to keep the water warm</li>
+                <li> Can’t be made of asbestos, mineral wool, or fiberglass insulation</li>
+                </ul>
+            </li>
+            <li> <strong>Materials</strong>: Selecting the appropriate insulation material is critical for efficient temperature retention. As a result, I wanted to chose a material that had a low thermal conductivity. 
+                <ul>
+                    <li> <u>Extruded polystyrene:</u> this foam has a very low thermal conductivity and is commonly used in home insulation. Its rigidness makes it a perfect candidate for creating the outer structure of our box.</li>
+                    <li> <u>Pipe insulation foam tube: </u>this material is very flexible and serves as a good insulator that will wrap around the beaker</li>
+                    <li> <u>Reflective material:</u> this material can be used to minimize radiation heat transfer. I decided to try and incorporate reflective tape and other reflective insulation.</li>
+                </ul>
+            </li>
+            <li> <strong>Manufacturing</strong>: before building the final box, I created 2 iterations. 
+                <ul>
+                    <li> <u>Iteration 1:</u> this was not the best iteration. The water temperature of this box dropped drastically. I knew this design could be improved if I were to increase the thickness of the lid. Also I knew my walls were really thin, so I knew I could add more insulation to the sides. I also thought adding foil around the beaker would reflect radiation but it actually ended up conducting and absorbing a lot of heat. </li>
+                    <li> <u>Iteration 2:</u> I used what I learned from the first iteration and increased the thickness of my lid so that a whole layer of foam was used for the lid. Additionally I made part of the lid actually go inside the beaker to reduce even more heat loss. This design was much better than the first iteration. </li>
+                    <li> <u>Iteration 3 (final design):</u>this was a much more polished version of the second iteration. I increased the thickness of the lid even more so that the beaker would be in the absolute center of the box. Additionally, I added cotton balls around the rim of the box to act as a seal to prevent heat from escaping. This box was the best version and the temperature drops were much lower compared to the first and second iterations.</li>
+                </ul>
+            </li>
+            <li> <strong>Testing</strong>: <p>To test the box, I would heat up water in a boiler and then transfer that water into a beaker that would then be placed into the box. I would record the initial temperature and then track the temperature every 5 minutes. </p>
+                <br>
+                <p>In order to accurately predict the temperature of the water over time, I was able to use Newton’s law of cooling. For this, I found the heat constant associated with each mass of water by testing each mass. To find the heat constant, I calculated it using the temperature data over time and the surround temperature. Having the heat constant for each mass allowed me to predict the final beaker temperature when given the initial temperature of the water, surrounding temperature, and time. However, it was very time consuming and required a lot of testing in order for me to find the heat constant associated with each mass of water. I found that for my box, the heat constant of water actually changed depending on the mass of water. </p>
+                <br>
+                <p>In the end, using Newton’s law of cooling and the heat constants for each water mass allowed me to usually predict the final temperature within 0.5 degrees celsius. </p>
+                </li>
+            <li> <strong>Improvements</strong>: My first recommendation for the future, would be to use a heated wire to cut the foam. I used a hacksaw to cut the foam and this made my cuts very messy and imprecise. While the precision of the cut won’t really affect the heat loss, it would definitely make the box prettier. Another recommendation would be to use a wired probe to measure the temperature automatically and record the data over time instead of me manually reading the temperature overtime and recording the data by hand. Having to check the temperature constantly was very annoying and time consuming. </li>
+            <li> <strong>Conclusion/Takeaways</strong>: Through this project, I was able to learn about the basics of thermal design and I was able to find out that I really enjoy thermodynamics. This really made the content of MAE105A (Engineering Thermodynamics) and MAE105D (Heat transfer) much more interesting. In the future, I hope to take more thermodynamics classes to learn more. I also got to learn how to analyze data and create mathematical models that could be used to accurately predict real life situations.</li>
+        </ul>
+        <div class="image-gallery">
+            <img src="THERMO 1.png" alt="Project 1">
+            <img src="THERMO 2.png" alt="Project 2">
+            <img src="THERMO 3.png" alt="Project 6">
+            <img src="THERMO 4.png" alt="Project 3">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ryan Fukunaga</p>
+    </footer>
+
+</body>

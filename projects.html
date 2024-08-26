@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Ryan Fukunaga</title>
+    <link rel="stylesheet" href="projects.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #033a4d;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            padding: 10px 40px;
+        }
+
+        .logo h1 {
+            margin: 0;
+            display: flex;
+            text-decoration: none;
+            font-family: 'Playfair Display', sans-serif;
+        }
+
+        .logo h1 a {
+            color: #000000;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .logo h1 a:hover {
+            color: #0c8fba;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 35px;
+        }
+
+        nav ul li a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #0c8fba;
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .image-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px; /* Adjust as needed */
+        }
+
+        .image-row a {
+            flex: 1 1 calc(22% - 10px); /* 22% width allows for space between images */
+            margin: 0.5%;
+        }
+
+        .image-row img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        footer {
+            background-color: #033a4d;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: auto;
+            font-family: 'Playfair Display', sans-serif;
+            width: 100%;
+            color: white;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            .image-row a {
+                flex: 1 1 calc(50% - 10px); /* 50% width minus the gap for 2 images per row on smaller screens */
+                margin: 0.5%;
+            }
+
+            nav ul li a {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">Ryan Fukunaga</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="main-text">
+            <p>Check out my projects below! Click each image to learn more.</p>
+        </div>
+
+        <div class="image-row">
+            <a href="plane.html">
+                <img src=E96planes.png alt="Image 1">
+            </a>
+            <a href="seaperch.html">
+                <img src=seaperchtm.png alt="Image 2">
+            </a>
+            <a href="hydrogen.html">
+                <img src=hydrogentm.png alt="Image 3">
+            </a>
+            <a href="hovercraft.html">
+                <img src=hovercrafttm.png alt="Image 4">
+            </a>
+            <a href="thermo.html">
+                <img src="thermodynamicstm.png" alt="Image 5">
+            </a>
+            <a href="dispenser.html">
+                <img src=dispendertm.png alt="Image 6">
+            </a>
+            <a href="smv.html">
+                <img src="racingtm.png" alt="Image 7">
+            </a>
+            <a href="uas.html">
+                <img src="uastm.png" alt="Image 8">
+            </a>
+            <a href="bridge.html">
+                <img src="bridge.png" alt="Image 9">
+            </a>
+            <a href="dry.html">
+                <img src="drytm.png" alt="Image 10">
+            </a>
+            <a href="cleaner.html">
+                <img src="clearnertm.png" alt="Image 11">
+            </a>
+            <a href="https://example.com/link12">
+                <img src="https://via.placeholder.com/150" alt="Image 12">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ryan Fukunaga</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #033a4d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+    color: #000000;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 40px;
+}
+
+.logo h1 {
+    margin: 0;
+    display: flex;
+    text-decoration: none;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.logo h1 a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.logo h1 a:hover {
+    color: #0c8fba;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 35px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #0c8fba;
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the images within the row */
+    gap: 10px; /* Adds space between the images */
+}
+
+.image-row a {
+    flex: 1 1 calc(25% - 20px); /* 25% width minus the gap for 4 images per row */
+    margin: 10px; /* Adjust margin as needed */
+}
+
+.image-row img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: #033a4d;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: auto;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+footer p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 0.9em;
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    .logo h1 a {
+        font-size: 17px;
+    }
+
+    .image-row a {
+        flex: 1 1 calc(50% - 20px); /* 50% width minus the gap for 2 images per row on smaller screens */
+    }
+}

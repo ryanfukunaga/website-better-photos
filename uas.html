@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAS</title>
+    <link rel="stylesheet" href="dispenser.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">Ryan Fukunaga</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <h2> Unmanned Aerial Systems (UAS) @ UCLA</h2>
+        <ul>
+            <li> Unmanned Aerial Systems is an aerial robotics team at UCLA that designs and manufactures drone hardware and software. My role on the team was to design and manufacture the payload system and motor mounts for our drone.</li>
+            <li> <strong>Objective:</strong> the objective for our drone is to dispense water bottles from the robot while in flight onto marked drop off locations. For me specifically, my objective was to create the mechanical system that could effectivly dispense these water bottles on to the desired location. The objects must be undamaged and safely accessible when delivered. I was also tasked with creating the mounts that could securely fix the drone motors onto the drone frame. </li>
+            <li> <strong>Design</strong>: the main constraint when designing our drone is weight. We want our drone to be as light as possible to ensure that the drone will be able to take off and move efficiently. This means we need to select the proper materials and remove any unnessary material. 
+                <ul>
+                    <li> <u>Delivery System:</u> our delivery system is still a work in progress. Our current design uses a winch system that rotates a spool of wire on a motor. Right now we plan to use fishing line for our spool because of its light weight, but we find that it gets tangled easily, so we are currenty looking into other options. </li>
+                    <li> <u>Spool:</u> the spool is planned to be made out of PLA and will be 3D printed. We chose to 3D print it because it's easy to manufacture and it's very light weight. The motor is going to be press fitted into the hole on the spool. We also included semi-circular cuts into the edge of the spool to allow a servo to stop the spool from spinning once the bottle reach the ground. </li>
+                    <li> <u> Spool Motor:</u> we are still trying to find what motor would be good for the delivery system. Because weight needs to be minimized, our spool motors must be as light as possible. So we initially thought of using a gearbox motor because of its weight efficiency and high amount of torque, but the gearbox motor wasnt able to sustain the downward force of the water bottle. We also looked into using servo motors, but they lowered the water bottles very slowly, so we couldn't use those. So, we are currently looking into other motors that can quickly dispense the water bottles while aslo being lightweight. </li>
+                    <li> <u> Water bottle holder:</u> our water bottle holders will be the cylindrical cage looking device in the images below. Our task is to deliver 5 of these water bottles, so we need 5 holders. We chose to 3D print the holders to minimize weight. We also made the holders as thin as possible and removed any excess materials from the walls. The plan is to attach the spool wire to the top edge of the holders. </li>
+                    <li> <u> Fixed Plate:</u> this plate will allow us to assemble everything and put everything together. This plate will have 5 evenly space cylindrical inserts that will allow the water bottle holders to slide right in. We will also attach the spools and spool motors onto this plate.</li>
+                    <li> <u> Motor Mounts:</u> our motor mounts allow us to attach our powerful heavy weight motors to the frame of the drone. Since these motors are very strong, the mounts must be durable yet light weight. Our current design has 2 components that are screwed together around the drone frame. The top portion will be made out of aluminum and the bottom portion will be 3D printed to minimize weight. Initially we had both the top and bottom made out of aluminum, but we decided that this was unneccasry weight and that only the top portion should be made out of aluminum. </li>
+                </ul>
+            
+            </li>
+            <li> <strong>Improvements</strong>: we are still undergoing testing with this drone. One thing I noticed is that the high clamping force of the screws on the motor mount caused the layers of the 3D printed section of the mount to separate over time. I'm currently looking into ways we can prevent this or other ways we can manufacture the motor mount. </li>
+        </ul>
+        <div class="image-gallery">
+            <img src="UAS 1.png" alt="Project 1">
+            <img src="UAS 2.png" alt="Project 2">
+            <img src="UAS 3.png" alt="Project 6">
+            <img src="UAS 8.png" alt="Project 3">
+            <img src="UAS 4.png" alt="Project 4">
+            <img src="UAS 5.png" alt="Project 5">
+            <img src="UAS 6.png" alt="Project 6">
+            <img src="UAS 7.png" alt="Project 7">
+            <img src="UAS 9.JPG" alt="Project 9">
+            
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ryan Fukunaga</p>
+    </footer>
+
+</body>
