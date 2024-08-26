@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass Cleaner</title>
+    <link rel="stylesheet" href="dispenser.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">Ryan Fukunaga</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <h2> Glass Cleaner</h2>
+        <ul>
+            <li>  <strong>Objective:</strong> this is a personal project that I created to help make college dorm life easier. Trying to clean a bunch of cups after a party can be quiete annoying, so I wanted to create a device that can help expedite this process. My goal was to create a device that can clean cups efficiently. 
+            </li>
+            <li>  <strong>Prototype:</strong> So far, I've only created a prototype for this idea. The prototype only allows the user to wash one cup at a time. In the future, I want to make it so that a user can clean 6 cups at a time. I chose to make this prototype specifically for shot glasses because they are small and this prototype was created more as a proof of concept. 
+            </li>
+            <li>  <strong>Design:</strong> the general idea for this design is that brush will spin and can be elevated up and down. It works similar to a drill press. A user can place a cup into place, turn on the brush motor, then elevate the brush up and down to clean the shot glass. The brush head motor will be a standard motor with a brush attached to the shaft. To elevate the brush, a rack and pinion mechanism will be used. I wasn't sure what mechanism I could use, but my mentor told me that using a stepper motor to convert rotational motion into linear motion would be the most effective. 
+            </li>
+            <li> <strong>Manufacturing:</strong> this was the most enjoyable part of the project. I created a CAD of the cage that I will mount everything onto. Most of the parts in this project were created a 3D printer. I had to go through many prints because sometimes the tolerances were off (too loose or couldn't fit). I think the coolest part was when I got my stpper motor to finally fit into its mount. That took a lot of iterations for the screw holes and wires to line up perfectly. I assmbled all the pieces using hot glue. The hardest part of the project was the electronics and coding. It was really fun to apply my Computer Science 31 skills to engineering. I used Ardunio as my controller and the IDE is in C++. It took a lot of trouble shooting and ChatGPT but I was able to incorprate all my electronics. The stepper motor was controlled using a joystick and the brush motor was controlled using a basic switch. 
+            </li>
+            <li> <strong>Testing:</strong> I'm still undergoing testing for this device and soon hope to make it better. Once I can successfully mount the brush motor, testing can begin.
+            </li>
+            <li> <strong>Improvements:</strong> As mentioned before, I want to be able to clean at least 6 cups at a time. This would mean having 6 brush heads. I'm currently doing research on how I can incorporate more electronics into this device to make that happen. I'm also looking into ways I can manufacture such a large device because 3D printing probably won't be large enough to accomodate such a large device that I have in mind. Additionally, I'm looking into ways I can mount the brush motor without using any permanant adhesive on the rack.
+            </li>
+
+
+        </ul>
+
+        <div class="image-gallery">
+            <img src="CLEANER 1.png" alt="Project 1">
+            <img src="CLEANER 2.png" alt="Project 1">
+            <img src="CLEANER 3.jpg" alt="Project 1">
+            <img src="CLEANER 4.jpg" alt="Project 1">
+            <img src="CLEANER 5.jpg" alt="Project 1">
+            <img src="CLEANER 6.jpg" alt="Project 1">
+            <img src="CLEANER 7.jpg" alt="Project 1">
+            <img src="CLEANER 8.mp4" alt="Project 1">
+            
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ryan Fukunaga</p>
+    </footer>
+
+</body>
+</html>
